@@ -1,14 +1,13 @@
 {
     margin: e;
     padding: e;
-    font-family: 'Poppins ' ,
-    sans-serif;
+    font-family: 'Poppins ' , sans-serif;
     box-sizing: border-box;
 }
 
 body {
 background: #989898;
-color: #fff; 
+color: #d8d5d5; 
 }
 
 #header {
