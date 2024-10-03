@@ -25,10 +25,10 @@
                         <div class="bar"></div>
                     </div>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Me</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact Me</a></li>
+                        <li><a href="#home" class="navLink scrollto active"><span>Home</span></a></li>
+                        <li><a href="#about" class="navLink scrollto"><span>About</span></a></li>
+                        <li><a href="#projects" class="navLink scrollto"><span>Projects</span></a></li>
+                        <li><a href="#contact" class="navLink scrollto"><span>Contact</span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -48,14 +48,27 @@
       </section>
 
     <!-- About Me Section -->
-     <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Hetvi Patel, an aspiring Web Developer. I love building web applications!</p>
-        <video width="320" height="240" controls poster="your-poster-image.jpg">
-            <source src="on_record.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <section id="about">
+        <div class="about container">
+          <div class="colLeft">
+            <div class="aboutImg">
+              <img src="user.png" alt="User Image" height="320" width="240" />
+            </div>
+          </div>
+          <div class="colRight">
+            <h1 class="sectionTitle">About <span>Me</span></h1>
+            <article>
+              <h2>Aspiring Business Analyst</h2>
+              <p>Hi, I'm an aspiring Business Analyst. I love working with data nad visualizing it.</p>
+            </article>
+            <video width="320" height="240" controls poster="user.png">
+              <source src="on_record.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
     </section>
+
     
     <!--footer section-->
     <footer>
