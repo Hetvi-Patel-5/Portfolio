@@ -118,13 +118,13 @@
   .aboutContent {
     display: flex;
     justify-content: space-between; 
-    align-items: flex-start; /* Align items to the top */
+    align-items: flex-start;
   }
   
   .colLeft {
-    flex: 40%; /* Left column for video */
+    flex: 40%;
     display: flex;
-    justify-content: center; /* Center video horizontally */
+    justify-content: center; 
   }
   
   .colRight {
@@ -171,7 +171,7 @@
   /* Projects Section Styling */
   #projects {
     background-color: #f0f0f0;
-    padding: 50px 150px;
+    padding: 50px 20px;
   }
 
   .allProjects {
@@ -193,11 +193,14 @@
     border: 2px solid #b773ff; 
     border-radius: 10px; 
     padding: 20px;
-    flex: 1; 
+    flex: 40%; 
     max-width: 48%; 
-    box-shadow: 0 4px 8px black); 
+    box-shadow: 0 4px 8px black; 
+    display: flex;
     flex-direction: column;
     align-items: center; 
+    justify-content: center;
+    text-align: justify; 
   }
 
   .projectInfo h2 {
