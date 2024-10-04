@@ -240,12 +240,44 @@
     background-color: #fff823; 
     color: black;
   }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .contactItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .contactSection {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh; 
+  }
+
+  .contactSection img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .icon{
+    width: 10px;
+    margin-bottom: 20px;
+  }
+
+  form p {
+    margin-bottom: 20px;
   }
 
   form {
@@ -272,8 +304,23 @@
     font-size: 18px;
   }
 
-  
-  
+  form button {
+    background-color: #b773ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  form button:hover {
+    background-color: #8a45d3; 
+  }
+
+  buttons[type="reset"] {
+    margin-left: 10px;
+  }
 
 /* Footer Styling */
 footer {
