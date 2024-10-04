@@ -45,7 +45,9 @@
             <h1>Hello, <span></span></h1>
             <h1>My Name is <span></span></h1>
             <h1>Hetvi Patel <span></span></h1>
-            <a href="#projects" class="btn">Projects</a>
+            <div class="button">
+                <a href="#projects" class="btn">Projects</a>
+            </div> 
           </div>
         </div>
       </section>
@@ -123,16 +125,18 @@
                         <input type="Email" name="Email" placeholder="Your Email Address" required />
                     </p>
                     <p>
-                        <label for="name">Email:</label><br>
-                        <input type="Email" name="Email" placeholder="Your Email Address" required />
+                        <label for="subject">Subject:</label><br>
+                        <input type="text" name="Subject" placeholder="Subject" required />
                     </p>
-                   
-                  <p>Subject</p>
-                  <input type="text" name="subject" placeholder="Subject" required />
-                  <p>Message</p>
-                  <textarea name="message" placeholder="Your Message" required></textarea>
+                    <p>
+                        <label for="message" >Message:</label><br>
+                        <textarea name="message" cols="40" rows="8" placeholder="Your Message" required></textarea>
+                    </p>
+        
+                  
                   <div class="button">
                     <button class="btn" type="submit">Submit</button>
+                    <button class="btn" type="reset">Reset</button>
                   </div>
                 </form>
               </div>
@@ -145,13 +149,15 @@
     <footer id="footer">
         <div class="footer container">
           <div class="logo">
-            <h1><span>Thank You For Visiting My Webpage</span></h1>
-            <p>You can reach me at ↓</p>
+            <h2><span>Thank You For Visiting My Webpage</span></h2>
+            <h3>Let's Connect !</h3>
           </div>
-          <h2>hetvi.patel9@ontariotechu.net</h2>
       
           <!-- Social Media Icons -->
           <div class="socialMedia">
+            <a href="mailto:hetvi.patel9@ontariotechu.net" target="_blank">
+                <i class="fas fa-envelope"></i>
+              </a>
             <a href="https://www.linkedin.com/in/hetvi-patel-59043b257" target="_blank">
               <i class="fab fa-linkedin"></i>
             </a>
@@ -166,7 +172,7 @@
             </a>
           </div>
           
-          <p>&copy; 2024 Ghazal Bangash. All rights reserved.</p>
+          <p> &copy; 2024 Hetvi Patel. All rights reserved.</p>
         </div>
       </footer>
       

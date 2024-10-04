@@ -45,11 +45,36 @@
   .btn {
     display: inline-block;
     padding: 10px 30px;
-    background-color: crimson;
-    color: white;
+    background-color: rgb(183, 115, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
   }
+
+button[type="reset"] {
+    background-color: rgb(183, 115, 255);
+  }
+  
+  button[type="reset"]:hover {
+    background-color: rgb(255, 248, 35); 
+  }
+
+button[type="project"] {
+    background-color: rgb(183, 115, 255);
+  }
+  
+  button[type="project"]:hover {
+    background-color: rgb(255, 248, 35); 
+  }
+button[type="submit"] {
+    background-color: rgb(183, 115, 255);
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(255, 248, 35); 
+  }
+  
+  
   
   footer {
     background-color: #333;
@@ -57,3 +82,24 @@
     padding: 20px 0;
     text-align: center;
   }
+ 
+.socialMedia {
+    margin-top: 20px;
+  }
+  
+  .socialMedia a {
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .socialMedia i {
+    font-size: 24px;
+    color: rgb(183, 115, 255);
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .socialMedia a:hover i {
+    color: rgb(255, 248, 35);  /* Change to any color you'd like */
+    transform: scale(1.2);
+  }
+  
