@@ -14,14 +14,14 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
   }
   
   /* Header Styling */
   #header {
-    background: #000000;
+    background: #222;
     color: white;
-    padding: 20px 0;
+    padding: 15px 0;
   }
   
   #header ul {
@@ -31,13 +31,13 @@
   
   #header ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 13px;
   }
   
   #header ul li a {
     color: #b773ff;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     transition: color 0.3s ease;
     display: inline-block;
@@ -45,15 +45,16 @@
   }
 
   .logo h1{
-    font-size: 2.5rem;
-  display: inline-block;
-  vertical-align: middle;
+    font-size: 2.3rem;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .navbar{
     display:flex;
     align-items:center;
     justify-content: space-between;
+    padding: 0 20px;
   }
 
 
@@ -67,28 +68,73 @@
     text-align: justify;
   }
   
+  #home h1 {
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .homeUserImg {
+    width: 350px;
+    height: auto; 
+    border-radius: 5%; 
+  }
+  
+  /* Prevent image from shrinking */
+  .userImage { 
+    flex-shrink: 0; 
+  }
+
+  .homeContent {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 25px;
+  }
+
+  #home h1 span {
+    color: #b773ff;
+    font-size: 4rem; 
+    font-weight: bold;
+  }
+
+  #home {
+    background-color: #111;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContent {
+    flex: 1; 
+    margin-right: 20px; 
+  }
+
   /* Button Styling */
-  .btn,button {
-    display: inline-block;
+  .btn {
     padding: 10px 30px;
     background-color: #b773ff;
+    border: 2px solid black;
     color: black;
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-
-button[type="submit"], button[type="reset"], button[type="project"] {
+  .btn:hover {
+    background-color: #fff823;
+    color: black;
+  }
+  
+button[type="submit"], button[type="reset"] {
     background-color: #b773ff;
 }
-  
-button[type="submit"]:hover, button[type="reset"]:hover, button[type="project"]:hover {
+
+button[type="submit"]:hover, button[type="reset"]:hover {
     background-color: #fff823; 
     color: black;
 }
-  
   
 /* Footer Styling */
 footer {
