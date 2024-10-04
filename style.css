@@ -169,7 +169,48 @@
   }
 
   /* Projects Section Styling */
-  
+  #projects {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+  }
+
+  .allprojects {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 10px;
+  }
+
+  .projectImg {
+    width: 50%; 
+    height: auto;
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+  }
+
+  .projectItem {
+    background-color: white; 
+    border: 2px solid #b773ff; 
+    border-radius: 10px; 
+    padding: 20px;
+    flex: 1; 
+    max-width: 48%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .projectInfo h2 {
+    color: #b773ff; 
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+  }
+
+  .projectInfo p {
+    color: #333; 
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 
   /* Button Styling */
   .btn {
