@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1200px) {
+    /* header */
+    #header .navLines {
+      display: none;
+    }
+    #header .navList ul li a {
+      font-size: 1.8rem;
+    }
+    #header .navList ul {
+      position: initial;
+      width: fit-content;
+      display: block;
+      height: auto;
+      background-color: transparent;
+    }
+    #header .navList ul a:after {
+      display: none;
+    }
+    #header .navList ul li {
+      display: inline-block;
+    }
+    /* End header */
+  }
