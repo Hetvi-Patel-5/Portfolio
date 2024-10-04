@@ -48,6 +48,7 @@
   .logo h1{
     font-size: 2.3rem;
     display: inline-block;
+    max-width: 250;
     vertical-align: middle;
   }
 
@@ -110,27 +111,32 @@
     flex: 1; 
     margin-right: 20px; 
   }
-  
   #about {
-    background-color: #f0f0f0;
-    padding: 50px 20px;
-  }
-  
+    background-color: #111;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  } 
+
   .aboutContent {
     display: flex;
     justify-content: space-between; 
     align-items: flex-start;
+    padding: 25px;
   }
   
   .colLeft {
     flex: 40%;
     display: flex;
     justify-content: center; 
+    align-items: center;
   }
   
   .colRight {
     flex: 40%; 
     padding-left: 20px;
+    justify-content: center;
+    align-items: center;
   }
   
   .sectionTitle {
@@ -150,7 +156,9 @@
     border: 5px solid #f0f0f0; 
     border-radius: 10px;
   }
-  
+  .skills {
+    margin-left: 25px;
+  }
   h2 {
     font-size: 2rem; 
     color: #b773ff; 
@@ -173,6 +181,7 @@
   #projects {
     background-color: #f0f0f0;
     padding: 50px 20px;
+    min-height: 100vh;
   }
 
   .allProjects {
@@ -180,6 +189,7 @@
     justify-content: space-between; 
     flex-wrap: wrap; 
     gap: 10px;
+    margin-inline-start: auto;
   }
 
   .projectImg {
@@ -293,7 +303,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 500px; 
-    border: 2px solid white;
+    border: 2px solid #b773ff;
   }
 
   form input,form textarea {
@@ -307,7 +317,7 @@
   }
 
   form label {
-    color: #b773ff;
+    color: #f0f0f0;
     font-size: 18px;
   }
 
