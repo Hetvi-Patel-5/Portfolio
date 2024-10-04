@@ -181,7 +181,9 @@
   #projects {
     background-color: #f0f0f0;
     padding: 50px 20px;
-    min-height: 100vh;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
   }
 
   .allProjects {
@@ -191,9 +193,10 @@
     gap: 10px;
     margin-inline-start: auto;
   }
-
+  
   .projectImg {
-    width: 50%; 
+    width: 50%;
+    position: relative; 
     height: auto;
     border-radius: 5px;
     margin-bottom: 5px;
@@ -206,10 +209,9 @@
     padding: 20px;
     flex: 40%; 
     max-width: 48%; 
-    box-shadow: 0 4px 8px black; 
+    box-shadow: 0 4px 8px black;
     display: flex;
     flex-direction: column;
-    align-items: center; 
     justify-content: center;
     text-align: justify; 
   }
@@ -258,7 +260,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
   }
 
   .contactItems {
@@ -278,12 +280,11 @@
   .contactSection img {
     display: block;
     margin: 0 auto;
-    max-width: 100px;
+    max-width: 10px;
     margin-bottom: 20px;
-    align-items: center;
   }
 
-  .icon{
+  .icon {
     width: 10px;
     margin-bottom: 20px;
   }
