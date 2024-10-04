@@ -226,6 +226,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
+    
   }
 
   .btn:hover {
@@ -282,12 +283,13 @@
   }
 
   form {
-    background-color: #333;
+    background-color: #333 ;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 500px; 
+    border: 2px solid white;
   }
 
   form input,form textarea {
@@ -315,12 +317,14 @@
     transition: background 0.3s;
   }
 
-  form button:hover {
-    background-color: #8a45d3; 
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
   }
-
-  buttons[type="reset"] {
-    margin-left: 10px;
+  
+  .buttons .btn {
+    width: 45%;
   }
 
 /* Footer Styling */
