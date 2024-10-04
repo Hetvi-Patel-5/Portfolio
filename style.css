@@ -20,6 +20,7 @@
   /* Header Styling */
   #header {
     background: #222;
+    background: linear-gradient(-20deg, #111, #8a45d3);
     color: white;
     padding: 15px 0;
   }
