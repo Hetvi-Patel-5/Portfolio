@@ -171,10 +171,10 @@
   /* Projects Section Styling */
   #projects {
     background-color: #f0f0f0;
-    padding: 50px 20px;
+    padding: 50px 150px;
   }
 
-  .allprojects {
+  .allProjects {
     display: flex; 
     justify-content: space-between; 
     flex-wrap: wrap; 
@@ -184,8 +184,8 @@
   .projectImg {
     width: 50%; 
     height: auto;
-    border-radius: 5px; 
-    margin-bottom: 15px; 
+    border-radius: 5px;
+    margin-bottom: 5px;
   }
 
   .projectItem {
@@ -195,7 +195,7 @@
     padding: 20px;
     flex: 1; 
     max-width: 48%; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px black); 
     flex-direction: column;
     align-items: center; 
   }
