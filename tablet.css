@@ -1,8 +1,15 @@
+:root {
+    --fa-animation-delay: 0;
+    --fa-rotate-angle: 0deg;
+}
+
 /* Tablet Screen  */
 
 /* Header Styling */
 #header {
     padding: 20px 0;
+    background: linear-gradient(-20deg, #111, #8a45d3);
+    color: white;
 }
 
 body {
@@ -22,6 +29,7 @@ body {
 .navlist ul {
     display: flex;
     gap: 20px;
+    background-color: white;
 }
 
 .navlist .navlines {

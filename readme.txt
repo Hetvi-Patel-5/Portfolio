@@ -1,4 +1,4 @@
-As for the code, i did refer to a website made by my friend. 
+As for the code, i did refer to a website made by my friend, Purva Patel. 
 Here's the link for it: https://purvapatel4725.github.io/purvapatel/#home 
 I refered this for social media part and also took idea for structure for the website.
 
