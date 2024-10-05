@@ -1,0 +1,80 @@
+/* phone.css */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px; 
+}
+
+.header {
+    padding: 10px; 
+}
+
+.navlist ul {
+    flex-direction: column; /* vertical navigation */
+    text-align: center;
+}
+
+.navlist li {
+    margin: 10px 0; /* Spacing between nav item */
+}
+
+/* Home section */
+#home {
+    height: auto; 
+    padding: 20px;
+}
+
+.homeContent {
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center;
+}
+
+.textContent {
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* About Section */
+.aboutContent {
+    flex-direction: column; /* video and text vertically stacked */
+}
+
+.colLeft,
+.colRight {
+    flex: 100%; /* Full width for both columns */
+    margin-bottom: 20px; /* Space between sections */
+}
+
+/* projects section */
+.allProjects {
+    flex-direction: column; /* Stack projects vertically */
+    align-items: center; 
+}
+
+.projectItem {
+    max-width: 90%; /* Use more width for mobile or smaller screen */
+    margin-bottom: 20px; /* Space between projects */
+}
+
+/* contact section */
+.contact-header {
+    flex-direction: column; /* Stack icon and header */
+    align-items: center; /* Center items */
+}
+
+.contactInfo {
+    width: 100%; /* Full width for form */
+}
+
+.icon img {
+    max-width: 50px; /* Smaller icon for mobile */
+}
+
+form {
+    padding: 20px; 
+}
+
+/* footer section */
+.footer {
+    padding: 10px;
+}
