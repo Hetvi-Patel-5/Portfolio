@@ -1,0 +1,233 @@
+/* Mobile Screen */
+
+
+body {
+    background-color: #111;
+    color: white;
+}
+
+.container {
+    padding: 10px 15px;
+}
+
+/* Header Styling */
+#header {
+    padding: 15px 10px;
+}
+
+.navBar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+}
+
+.logo h1 {
+    font-size: 2rem;
+}
+
+.navlist {
+    width: 100%;
+    color:white
+}
+
+.navlist ul {
+    flex-direction: column;
+    width: 100%;
+}
+
+.navlist ul li {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.navlist ul li a {
+    font-size: 1.2rem;
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+
+
+.navlines {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.navlines .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #b773ff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Toggle Navigation */
+.navlist {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #111;
+}
+
+.navlist.active {
+    display: flex;
+}
+
+.navlist ul {
+    width: 100%;
+}
+
+.navlist ul li a {
+    text-align: left;
+    padding-left: 15px;
+}
+
+/* Home Section */
+#home {
+    padding: 40px 10px;
+}
+
+.homeContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.textContent h1 {
+    font-size: 1.8rem;
+}
+
+.textContent h1 span {
+    font-size: 2.2rem;
+}
+
+.homeUserImg {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    padding: 40px 10px;
+}
+
+.aboutContent {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.colLeft, .colRight {
+    flex: 100%;
+    padding: 10px 0;
+}
+
+.videoBorder {
+    width: 100%;
+    height: auto;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 10px;
+}
+
+.allProjects {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.projectItem {
+    flex: 100%;
+    max-width: 100%;
+}
+
+.projectImg {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 10px;
+}
+
+.contactItems {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactItem {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contactInfo form {
+    width: 100%;
+}
+
+/* Form Styles */
+form {
+    padding: 20px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+form label {
+    font-size: 16px;
+}
+
+.buttons {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons .btn {
+    width: 100%;
+}
+
+/* Footer Styling */
+footer {
+    padding: 20px 10px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.socialMedia i {
+    font-size: 20px;
+}
+
+/* Button Styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Additional just for Mobile Styles */
+section {
+    padding: 30px 0;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.divider {
+    width: 50%;
+    margin: 0 auto 20px;
+}
+
