@@ -43,13 +43,10 @@
     color:white;
   }
 
-
-
-
   #header ul {
     list-style: none;
     text-align: right;
-    max-width: 400px;
+
   }
   
   #header ul li {
@@ -74,17 +71,6 @@
   
   .logo {
     max-width: 250px;
-  }
-
-
-  .navlist{
-    list-style: none;
-    margin:0;
-  }
-
-  .navlist li {
-    list-style: none;
-    margin: 0;
   }
 
   .navlist li a {
@@ -252,6 +238,7 @@
     text-align: justify;
     align-items: center; 
   }
+  
 
   .projectInfo h2 {
     color: #b773ff; 
@@ -381,7 +368,7 @@ footer {
     text-align: center;
   }
  
-.socialMedia {
+  .socialMedia {
     margin-top: 20px;
   }
   
