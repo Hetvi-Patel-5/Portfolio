@@ -24,12 +24,28 @@
   
   /* Header Styling */
   #header {
-    background: #222;
     background: linear-gradient(-20deg, #111, #8a45d3);
     color: white;
     padding: 15px 0;
   }
+
+  .navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
   
+  .logo h1{
+    font-size: 2.3rem;
+    display: inline-block;
+    vertical-align: middle;
+    color:white;
+  }
+
+
+
+
   #header ul {
     list-style: none;
     text-align: right;
@@ -51,30 +67,38 @@
     vertical-align: middle;
   }
 
-  .logo h1{
-    font-size: 2.3rem;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .navbar{
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    padding: 0 20px;
-  }
-  .logo {
-    max-width: 250px;
-  }
-  .navlist {
-    list-style: none;
-    max-width: 400px;
-  }
-
-
+  
   #header ul li a:hover {
     color: #fff823;
   }
+  
+  .logo {
+    max-width: 250px;
+  }
+
+
+  .navlist{
+    list-style: none;
+    margin:0;
+  }
+
+  .navlist li {
+    list-style: none;
+    margin: 0;
+  }
+
+  .navlist li a {
+    color: #b773ff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .navlist li a:hover {
+    color: #fff823;
+  }
+
   
   /* Section Styling */
   section {
