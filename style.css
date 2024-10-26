@@ -17,6 +17,10 @@
     height: auto;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   .container {
     width: 100%;
     max-width: 1200px;

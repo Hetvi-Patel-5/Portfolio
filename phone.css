@@ -12,6 +12,10 @@ body {
     padding: 10px 15px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 /* Header Styling */
 #header {
     padding: 15px 10px;
