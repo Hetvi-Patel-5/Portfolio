@@ -1,0 +1,15 @@
+{
+  "name": "webas1",
+  "version": "1.0.0",
+  "description": "Portfolio\r ## Assignment 2 - ExpressJS Portfolio\r This repository now contains the code for Assignment 2, an ExpressJS-based portfolio website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
